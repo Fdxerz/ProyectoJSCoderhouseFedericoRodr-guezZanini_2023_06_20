@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisas</title>
+    <link rel="stylesheet" href="../styles/divisas.css">
+</head>
+<body>
+    <h1>CONVERTIDOR DE DIVISAS</h1>
+    <form class="formulario">
+        <h2>COMPRA</h2>
+        <p>Seleccionar moneda a enviar:</p>
+        <input type="radio" name="cambio" id="Cdolar">Dólar
+        <input type="radio" name="cambio" id="Ceuro">Euro
+
+        <h2>VENTA</h2>
+        <p>Seleccionar moneda a enviar:</p>
+        <input type="radio" name="cambio" id="Vdolar">Dólar
+        <input type="radio" name="cambio" id="Veuro">Euro
+        <p>Ingrese Monto en Pesos Uruguayos:</p>
+        <input type="number" id="valor" min="1" max="999999999">
+        <input type="button" id="cotizador" value="Cotizar" onclick="convertir ()">
+          </form>
+
+    <script src="../scripts/divisas.js"></script>
+</body>
+</html>

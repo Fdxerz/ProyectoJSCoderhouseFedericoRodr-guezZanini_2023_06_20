@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA DE FRUTAS</title>
+    <link rel="stylesheet" href="../styles/tiendafrutas.css">
+</head>
+
+<body>
+  <div class="titulo1">
+    <img src="../img/StardewStore.png" alt="StardewStore">
+  </div>
+  <div class="container">
+  <div class="titulo2">
+    <h1> </h1>
+    <img src="../img/Mostrador.png" alt="Mostrador">
+  </div>
+    <div class="productos">
+      <div class="producto">
+        <img src="../img/Apple.png" alt="Manzana">
+        <h3>Manzana</h3>
+        <p>$100</p>
+        <p>Stock: <span id="stock-1">10</span></p>
+        <button onclick="agregarProducto('Manzana', 100)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Orange.png" alt="Naranja">
+        <h3>Naranja</h3>
+        <p>$100</p>
+        <p>Stock: <span id="stock-2">10</span></p>
+        <button onclick="agregarProducto('Naranja', 100)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Grape.png" alt="Racimo de Uvas">
+        <h3>Racimo de Uvas</h3>
+        <p>$80</p>
+        <p>Stock: <span id="stock-3">10</span></p>
+        <button onclick="agregarProducto('Racimo de Uvas', 80)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Strawberry.png" alt="Fresa">
+        <h3>Fresa</h3>
+        <p>$120</p>
+        <button onclick="agregarProducto('Fresa', 120)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Banana.png" alt="Banana">
+        <h3>Banana</h3>
+        <p>$150</p>
+        <button onclick="agregarProducto('Banana', 150)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Blackberry.png" alt="Mora">
+        <h3>Mora</h3>
+        <p>$20</p>
+        <button onclick="agregarProducto('Mora', 20)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Melon.png" alt="Melón">
+        <h3>Melón</h3>
+        <p>$250</p>
+        <button onclick="agregarProducto('Melón', 250)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Mango.png" alt="Mango">
+        <h3>Mango</h3>
+        <p>$130</p>
+        <button onclick="agregarProducto('Mango', 130)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Peach.png" alt="Durazno">
+        <h3>Durazno</h3>
+        <p>$140</p>
+        <button onclick="agregarProducto('Durazno', 140)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Salmonberry.png" alt="Frambuesa">
+        <h3>Frambuesa</h3>
+        <p>$5</p>
+        <button onclick="agregarProducto('Frambuesa', 5)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Pineapple.png" alt="Piña">
+        <h3>Piña</h3>
+        <p>$300</p>
+        <button onclick="agregarProducto('Piña', 300)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Blueberry.png" alt="Arándanos">
+        <h3>Arándanos</h3>
+        <p>$50</p>
+        <button onclick="agregarProducto('Arándanos', 50)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Cranberries.png" alt="Grosellas">
+        <h3>Grosellas</h3>
+        <p>$75</p>
+        <button onclick="agregarProducto('Grosellas', 75)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Apricot.png" alt="Albaricoque">
+        <h3>Albaricoque</h3>
+        <p>$50</p>
+        <button onclick="agregarProducto('Albaricoque', 50)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Wild_Plum.png" alt="Ciruela">
+        <h3>Ciruela</h3>
+        <p>$80</p>
+        <button onclick="agregarProducto('Ciruela', 80)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Cherry.png" alt="Cereza">
+        <h3>Cereza</h3>
+        <p>$80</p>
+        <button onclick="agregarProducto('Cereza', 80)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Coconut.png" alt="Coco">
+        <h3>Coco</h3>
+        <p>$100</p>
+        <button onclick="agregarProducto('Coco', 100)">Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="../img/Pomegranate.png" alt="Granada">
+        <h3>Granada</h3>
+        <p>$140</p>
+        <button onclick="agregarProducto('Granada', 140)">Agregar al carrito</button>
+      </div>
+    </div>
+    <div class="carrito">
+      <h2>Carrito de compras</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Subtotal</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="carrito-body">
+        </tbody>
+      </table>
+      <p>Total: <span id="total"></span></p>
+      <button onclick="vaciarCarrito()">Vaciar carrito</button>
+    </div>
+  </div>
+  <script src="../scripts/tiendafrutas.js"></script>
+  </body>

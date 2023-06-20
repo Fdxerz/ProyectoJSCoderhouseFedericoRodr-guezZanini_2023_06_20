@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(60, 196, 226);
+    height: 100vh;
+    text-align: center;
+    font-size: large;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .titulo1 img {
+  display: flex;
+  width: 100%;
+  height: auto;
+  }
+
+  .titulo2 img {
+  width: 100%;
+  height: auto;
+  }
+
+  #titulo_principal {width: 200%;
+    height: auto;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(123, 45, 0)
+  }
+  
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .producto {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(4, 139, 67, 0.454);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .producto img {
+    max-width: 100%;
+  }
+  
+  .carrito {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(4, 139, 67, 0.454);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .carrito h2 {
+    margin-top: 0;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: #c608d46e;
+    color: #ffffff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  table th, table td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #cccccc;
+  }
+  
+  table th {
+    background-color: #4694f396;
+  }
+  
+  table td:last-child {
+    text-align: right;
+  }
+  
+  table td:nth-child(2), table td:nth-child(4) {
+    font-weight: bold;
+  }
+  
+  

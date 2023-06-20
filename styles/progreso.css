@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(121, 190, 254);
+    text-transform: uppercase;
+}
+
+.block{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    display: block;
+    width: 50rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-align: center;
+    background-color: darkolivegreen;
+    padding: 50px;
+    font-size: xx-large;
+}

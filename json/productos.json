@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "nombre": "Manzana",
+    "precio": 100,
+    "stock": 12,
+    "image": "../img/Apple.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Naranja",
+    "precio": 100,
+    "stock": 10,
+    "image": "../img/Orange.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Racimo de Uvas",
+    "precio": 80,
+    "stock": 13,
+    "image": "../img/Grape.png"
+  },
+
+  {
+    "id": 4,
+    "nombre": "Fresa",
+    "precio": 120,
+    "stock": 8,
+    "image": "../img/Strawberry.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Banana",
+    "precio": 150,
+    "stock": 6,
+    "image": "../img/Banana.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Mora",
+    "precio": 20,
+    "stock": 17,
+    "image": "../img/Blackberry.png"
+  },
+
+  {
+    "id": 7,
+    "nombre": "Melón",
+    "precio": 250,
+    "stock": 4,
+    "image": "../img/Melon.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Mango",
+    "precio": 130,
+    "stock": 7,
+    "image": "../img/Mango.png"
+  },
+  {
+    "id": 9,
+    "nombre": "Durazno",
+    "precio": 140,
+    "stock": 9,
+    "image": "../img/Peach.png"
+  },
+
+  {
+    "id": 10,
+    "nombre": "Frambuesa",
+    "precio": 5,
+    "stock": 32,
+    "image": "../img/Salmonberry.png"
+  },
+  {
+    "id": 11,
+    "nombre": "Piña",
+    "precio": 300,
+    "stock": 3,
+    "image": "../img/Pineapple.png"
+  },
+  {
+    "id": 12,
+    "nombre": "Arándanos",
+    "precio": 50,
+    "stock": 15,
+    "image": "../img/Blueberry.png"
+  },
+
+  {
+    "id": 13,
+    "nombre": "Grosellas",
+    "precio": 75,
+    "stock": 22,
+    "image": "../img/Cranberries.png"
+  },
+  {
+    "id": 14,
+    "nombre": "Damasco",
+    "precio": 50,
+    "stock": 11,
+    "image": "../img/Apricot.png"
+  },
+  {
+    "id": 15,
+    "nombre": "Ciruela",
+    "precio": 80,
+    "stock": 8,
+    "image": "../img/Wild_Plum.png"
+  },
+
+  {
+    "id": 16,
+    "nombre": "Cereza",
+    "precio": 80,
+    "stock": 9,
+    "image": "../img/Cherry.png"
+  },
+  {
+    "id": 17,
+    "nombre": "Coco",
+    "precio": 100,
+    "stock": 2,
+    "image": "../img/Coconut.png"
+  },
+  {
+    "id": 18,
+    "nombre": "Granada",
+    "precio": 140,
+    "stock": 3,
+    "image": "../img/Pomegranate.png"
+  }
+]

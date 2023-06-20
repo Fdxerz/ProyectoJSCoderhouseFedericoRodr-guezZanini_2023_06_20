@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/cine_stardew.css">
+    <title>Cine Stardew</title>
+</head>
+<body>
+    <h1>Bienvenido al Cine Stardew</h1>
+    <h3> --- Menu --- </h3>
+    <p>Queremos Hacer de tu Visita una Experiencia Placentera. Para eso, Ingresa el Año, 1 para impar y 2 para par, y selecciona la estación, y te presentaremos la película disponible.</p>
+    <p>Año</p> <input type="number" id="año" min="1" max="2">
+    <button class="button_cine" onclick="presentar('Primavera')">Primavera</button>
+    <button class="button_cine" onclick="presentar('Verano')">Verano</button>
+    <button class="button_cine" onclick="presentar('Otoño')">Otoño</button>
+    <button class="button_cine" onclick="presentar('Invierno')">Invierno</button>
+    
+    <div class="contai">
+    <h3>Película Disponible:</h3>
+    <h2 id="presentacion"></h2>
+    <div class="escala">
+        <img src="../img/00-Cine.png" id="imagen">
+    </div>
+    </div>
+
+    <script src="../scripts/cine_stardew.js"></script>
+</body>
+</html>

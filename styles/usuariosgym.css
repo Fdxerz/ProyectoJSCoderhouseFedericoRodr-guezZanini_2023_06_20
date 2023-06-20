@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(180deg, #87CEFA, #1E90FF);
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    font-size: large;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(198, 73, 0)
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #68b90bbd;
+    color: #ffffff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+input {
+    height: 20px;
+    width: 150px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #45a0a0;
+}

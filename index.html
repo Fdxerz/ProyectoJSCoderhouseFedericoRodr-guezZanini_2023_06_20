@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Stardew Store</title>
+
+</head>
+<body>
+
+  <div class="titulo1">
+    <img src="../img/StardewStore.png" alt="StardewStore">
+  </div>
+  <div class="titulo2">
+    <h1> </h1>
+    <img src="../img/Mostrador.png" alt="Mostrador">
+  </div>
+
+    <div class="grid-container">
+
+  <div class="seccion1">
+  <h1>Tienda de Frutas</h1>
+
+  <div class="productos">
+    <div id="producto-list"></div>
+  </div>
+</div>
+
+<div class="seccion2">
+  <div class="espaciado_1">
+  <h4>Promo</h4>
+  <p>Con la compra valor de 4000G o superior te regalamos un ticket para el cine</p>
+</div>
+  
+  <h2>Catálogo Cine</h2>
+    <h3> --- Menu --- </h3>
+    <p>Si quieres conocer las películas disponibles, ingresa el Año y selecciona la estación, te presentaremos la película disponible.</p>
+    <p class="gris_oscuro">-Ingrese el Año y Después la Estación-</p> <input type="number" id="año" min="1" max="20">
+    <button class="button_cine" onclick="presentar('Primavera')">Primavera</button>
+    <button class="button_cine" onclick="presentar('Verano')">Verano</button>
+    <button class="button_cine" onclick="presentar('Otoño')">Otoño</button>
+    <button class="button_cine" onclick="presentar('Invierno')">Invierno</button>
+    
+    <div>
+    <h3>Película Disponible:</h3>
+    <h4 id="presentacion"></h4>
+    <div class="escala">
+        <img src="../img/00-Cine.png" id="imagen">
+    </div>
+    </div>
+</div>
+
+
+<div class="seccion4">
+  <div class="cambios">
+<h3>CONVERTIDOR DE DIVISAS</h3>
+    <form class="formulario">
+        <p>Seleccionar moneda a convertir:</p>
+        <input type="radio" name="cambio" id="cambioOro" class="cambio_moneda">ORO
+        <input type="radio" name="cambio" id="cambioQi" class="cambio_moneda">QI
+
+        <p>Ingrese Monto:</p>
+        <input type="number" id="valor" class="monto_moneda" min="1" max="999999999">
+        <input type="button" id="cotizador" value="Cotizar" onclick="convertir ()">
+          </form>
+  </div>
+</div>
+
+<div class="seccion3">
+  <div class="carro">
+    <h1 class="carro-titulo">Carrito</h1>
+    <div id="carro-items">
+
+    </div>
+    <div class="carro-total">
+      Precio total: <span>$0</span>
+    </div>
+    <div class="carro_vacio" id="carro_vacio">
+      El carrito está vacío.
+    </div>
+    <button onclick="clearCarro()">Vaciar carrito</button>
+    <button id="comprar" onclick="comprar()">Comprar</button>
+  </div>
+</div>
+
+<div class="seccion5">
+  </div>
+  <div class="container_semaforo">
+    <div class="poste">
+      <div class="base"></div>
+      <div class="marco">
+        <div class="luz roja"></div>
+        <div class="luz amarilla"></div>
+        <div class="luz verde"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <footer>
+    <div class="alinearfooter">
+    <button id="paginas" onclick="retroceder()">CHEQUEAR PROGRESO</button>
+  </div>
+  </footer>
+
+  <script src="scripts/index.js"></script>
+</body>
+</html>

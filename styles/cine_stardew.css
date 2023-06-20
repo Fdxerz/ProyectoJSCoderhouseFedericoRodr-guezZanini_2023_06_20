@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(52, 197, 241);
+}
+
+input .año{
+    height: 20px;
+    width: 80px;
+    font-size: 1rem;
+}
+
+
+.button_cine{
+    height: 35px;
+    width: 140px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.escala img {
+    display: flex;
+    width: 192px;
+    height: 264px;
+    align-items: center;
+    justify-content: center;
+}
